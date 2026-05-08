@@ -4,3 +4,10 @@ spring:
   ai:
     anthropic:
       api-key: ${ANTHROPIC_API_KEY}
+
+  chatclient:
+    tools:
+      weather:
+        enabled: true
+      pirate:
+        enabled: false
